@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <h2 class="title">Age Calculator</h2>
+        <div class="input_field">
+            <div class="dob">
+                <p class="subtitle">Day</p>
+                <p class="subtitle">Month</p>
+                <p class="subtitle">Year</p>
+            </div>
+            <div class="input_data">
+                <input type="number" class="day" name="day" id="day" placeholder="DD" required>
+                <input type="number" class="month" name="month" id="month" placeholder="MM" required>
+                <input type="number" class="year" name="year" id="year" placeholder="YYYY" required>
+            </div>
+        </div>
+        <button class="check_btn" id="check_btn">Check</button> 
+        <h4 class="result" id="result" >Result</h4>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
